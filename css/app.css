@@ -1,0 +1,10 @@
+.reveal section img.logo {
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	width: 40%;
+	background: none;
+	border: none;
+}
+
+.reveal section img.family {
+	height: 80vh;
+}
