@@ -4,7 +4,9 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Ultimate Web</title>
+    <!--<title>Go Fundamentals</title>-->
+    <title>Go Language Training</title>
+    <!--<title>Ultimate Go</title>-->
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/beige.css">
@@ -27,134 +29,220 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h1>Welcome!</h1>
-					<code>go get github.com/ardanlabs/gotraining</code>
-					<!--<img class="logo" src="img/web-badge.png" alt="Ultimate Web" />-->
-					<!--<img class="logo" src="img/ardanlabs-logo.png" alt="Ardan Labs" />-->
+          <!--<h1>Go Fundamentals</h1>-->
+          <h1>Go Language Training</h1>
+          <!--<h1>Ultimate Go</h1>-->
+					<img class="logo" src="img/ardanlabs-logo.png" alt="Ardan Labs" />
 				</section>
-				<!--<section>-->
-					<!--<section>-->
-						<!--<h1>Thanks!</h1>-->
-					<!--</section>-->
-					<!--<section>-->
-						<!--<img alt="Golang UK" src="img/golang_uk.svg" class="logo"/>-->
-						<!--<p>GolangUK</p>-->
-					<!--</section>-->
-					<!--<section>-->
-						<!--All of you!-->
-					<!--</section>-->
-				<!--</section>-->
+
+				<section>
+          <ul>
+            <li>Never used Go? Learn a ton!</li>
+            <li>Used Go a bunch? Still will learn a lot!</li>
+            <li>Have fun.</li>
+          </ul>
+        </section>
 
 				<section>
 					<section>
 						<h2>Hi, I'm Jacob!</h2>
 						<p>@jcbwlkr on Twitter</p>
 						<p>(Jacob Walker without vowels)</p>
+						<p>Community Engineer</p>
 					</section>
 					<section>
 						<ul>
 							<li>Web apps in PHP, Ruby, and Node.js</li>
-							<li>Switched to Go a few years ago</li>
+							<li>Switched to Go in 2014</li>
 							<li>Writing APIs and web apps</li>
 						</ul>
 					</section>
-					<section><img alt="family picture" src="img/14918756_10154484952065781_1101000328682890593_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/boys.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/rory-walking.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/18268649_10100672641164140_8474338431377490246_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/rory-london.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/18519536_10100681925054150_2026499249744534175_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/17016746_10100627479229020_1928720294152358541_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/14753432_10100530029658740_5328692542398408882_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/14882368_10154484951610781_8805867638656706141_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16265411_10100600677185530_3344520792635338914_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/15994462_10100595303813810_3302900172843872398_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/12799431_10100405026056960_6398212627028875424_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/13938594_10100511377757300_5995708267578524188_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/14352067_10100512491744860_1444554441469719323_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/14362524_10100512491854640_7303378687509455111_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/14670830_10100531808364200_3236365904001527201_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/14859692_10154484950205781_5173422618622534502_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/14884519_10154484950225781_1516680667920773188_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/14902876_10154484949965781_1445871290231414649_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16113240_10100598850586050_5820241685441598154_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16142370_10100600050331750_4547848690692926486_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16174435_10100602892436150_2488064511829358570_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16174521_10100603262948640_233506409602411151_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16195725_10100602892725570_6316920743138169029_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/20160911_174211.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16265774_10100603262838860_3388018864038358891_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16463312_10100610384112770_7437492445196922203_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16707452_10100618985420680_2198813185709649884_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16722812_10100616507187080_8402177692591495967_o.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16864458_10100621865379220_5574277524808946389_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16939532_10100624271502330_3545259544041458027_n.jpg" class="family" /></section>
-					<section><img alt="family picture" src="img/16707381_10100614889813310_758554676128631307_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/family-konos.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/anna.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/kell-anna.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/carter-legos.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/rory-sesame.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/rv.jpg" class="family" /></section>
+
+					<section><img alt="family picture" src="img/family/2018-11-0001.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/2018-11-0002.jpg" class="family" /></section>
+
+					<section><img alt="family picture" src="img/family/boys.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/20180305_171316.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/rory-london.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/rory.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/18519536_10100681925054150_2026499249744534175_n.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/17016746_10100627479229020_1928720294152358541_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/14753432_10100530029658740_5328692542398408882_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/14882368_10154484951610781_8805867638656706141_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16265411_10100600677185530_3344520792635338914_n.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/15994462_10100595303813810_3302900172843872398_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/12799431_10100405026056960_6398212627028875424_n.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/13938594_10100511377757300_5995708267578524188_n.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/14352067_10100512491744860_1444554441469719323_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/14362524_10100512491854640_7303378687509455111_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/14670830_10100531808364200_3236365904001527201_n.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/14859692_10154484950205781_5173422618622534502_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/14884519_10154484950225781_1516680667920773188_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/14902876_10154484949965781_1445871290231414649_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16113240_10100598850586050_5820241685441598154_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16142370_10100600050331750_4547848690692926486_n.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16174435_10100602892436150_2488064511829358570_n.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16174521_10100603262948640_233506409602411151_n.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16195725_10100602892725570_6316920743138169029_n.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/20160911_174211.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16265774_10100603262838860_3388018864038358891_n.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16463312_10100610384112770_7437492445196922203_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16707452_10100618985420680_2198813185709649884_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16722812_10100616507187080_8402177692591495967_o.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16864458_10100621865379220_5574277524808946389_n.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16939532_10100624271502330_3545259544041458027_n.jpg" class="family" /></section>
+					<section><img alt="family picture" src="img/family/16707381_10100614889813310_758554676128631307_o.jpg" class="family" /></section>
 				</section>
 				<section>
 					<section>
 						<h1>Schedule</h1>
 						<ul>
-							<li>Break from 10:30 - 11:00</li>
-							<li>Lunch from 12:30 - 1:30</li>
-							<li>Break from 3:00 - 3:30</li>
-							<li>Here until 5:00</li>
+              <li>Start at 10:00 Eastern</li>
+							<li>Break around 11:00</li>
+							<li>Lunch from 12:00 - 1:00</li>
+							<li>Break around 3:00</li>
+							<li>End at 6:00</li>
 						</ul>
 					</section>
 					<section>
-            <h1>Tuesday</h1>
-						<ul>
-              <li>1: Design Guidelines</li>
-              <li>1.1 Prepare Your Mind</li>
-              <li>1.2 Productivity versus Performance</li>
-              <li>1.3 Correctness versus Performance</li>
-            </ul>
-          </section>
-          <section>
 						<h1>Tuesday</h1>
-            <ul>
-              <li>2: Language Syntax</li>
-              <li>2.1 Variables</li>
-              <li>2.2 Struct Types</li>
-              <li>2.3 Pointers</li>
-              <li>2.4 Constants</li>
-              <li>2.5 Functions</li>
-            </ul>
-          </section>
-          <section>
-						<h1>Tuesday</h1>
-            <ul>
-              <li>3: Data Structures</li>
-              <li>3.1 Data-Oriented Design</li>
-              <li>3.2 Arrays</li>
-              <li>3.3 Slices</li>
-              <li>3.4 Maps</li>
+						<ul>
+							<li>Introduction &amp; Philosophy</li>
+							<li>Type System</li>
+							<li>Struct Types</li>
+							<li>Pointers</li>
+              <!--<li>Control Flow</li>-->
+							<li>Arrays &amp; Slices</li>
+							<li>Functions</li>
+              <!--<li>Strings</li>-->
+              <li>More Exercises</li>
+              <!--<li>GitHub Client Exercise</li>-->
 						</ul>
 					</section>
 					<section>
 						<h1>Wednesday</h1>
 						<ul>
-              <li>4: Decoupling</li>
-              <li>4.1 Methods</li>
-              <li>4.2 Interfaces</li>
-              <li>4.3 Embedding</li>
-              <li>4.4 Exporting</li>
+							<li>Maps</li>
+							<li>Methods</li>
+							<li>Interfaces</li>
+
+							<li>The Stack and the Heap</li>
+							<li>Constants</li>
+
+							<li>Embedding</li>
+							<li>Exporting &amp; Packaging</li>
+
+              <li>Our Experiences</li>
+
+              <li>GitHub Client Exercise</li>
+              <!--<li>More Exercises?</li>-->
 						</ul>
 					</section>
 					<section>
-						<h1>Wednesday</h1>
+						<h1>Thursday</h1>
 						<ul>
-              <li>5: Composition</li>
-              <li>5.1 Grouping Types</li>
-              <li>5.2 Decoupling</li>
-              <li>5.3 Conversion and Assertions</li>
-              <li>5.4 Interface Pollution</li>
-              <li>5.5 Mocking</li>
+							<li>Concurrency</li>
+							<ul>
+								<li>Goroutines</li>
+								<li>Data Races</li>
+								<li>Channels</li>
+                <!--<li>Context</li>-->
+							</ul>
+              <!--<li>Testing &amp; Benchmarking</li>-->
+              <li>Testing, Benchmarking, &amp; Profiling</li>
+              <li>Type Assertions</li>
+              <li>Error Handling</li>
+							<li>Tools &amp; Resources</li>
+							<!--<li>More Exercises?</li>-->
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<img src="img/Go-Logo_Blue.svg" alt="Go" class="logo logo-big" />
+					</section>
+					<section>
+						<ul>
+							<li>Who has used it?</li>
+							<li>What's your background?</li>
+						</ul>
+					</section>
+            <section>
+            <h1>Clear your mind</h1>
+            </section>
+            <section>
+              <h2>Don't write Go like Java</h2>
+            </section>
+            <section>
+              <h2>Don't write Go like C#</h2>
+            </section>
+            <section>
+              <h2>Don't write Go like Python</h2>
+            </section>
+            <section>
+              <h2>Don't write Go like JavaScript</h2>
+            </section>
+            <section>
+              <h2>Don't write Go like C or C++</h2>
+            </section>
+            <section>
+              <h1>Write Go like Go!</h1>
+            </section>
+					<section>
+						<a href="https://talks.golang.org/2014/gocon-tokyo.slide#27" target="_blank">Where does Go fit?</a>
+						<!--<img src="img/funfast-nogo.svg" alt="Go" class="" />-->
+						<!--<img src="img/funfast.svg" alt="Go" class="" />-->
+					</section>
+					<section>
+            <h2>What is it used for?</h2>
+						<ul>
+							<li>Networked Services</li>
+							<li>Infrastructure</li>
+							<li>Tooling</li>
 						</ul>
 					</section>
 					<section>
-						<h1>Wednesday</h1>
-            More?
+						<h1>Tenets</h1>
+						<ul>
+							<li>Integrity</li>
+							<li>Productivity</li>
+							<li>Readability</li>
+						</ul>
+					</section>
+					<section>
+						<a href="https://talks.golang.org/2012/splash.article">
+							Go at Google: Language Design in the Service of Software Engineering
+						</a>
+					</section>
+					<section>
+						<p>Go is Simple</p>
+						<code>hello-world</code>
+					</section>
+					<section>
+						<p>Go is Compiled</p>
+						<code>go build</code>
+					</section>
+					<section>
+						<p>Blurs the line of compiled vs interpreted</p>
+						<code>go run</code>
+					</section>
+					<section>
+						<p>Go is built for hardware</p>
+						<code>GOOS=linux go build</code>
+					</section>
+					<section>
+						<p>Go binaries are self-contained</p>
+						<code>ls -l</code>
+					</section>
+					<section>
+						<p>Go is opinionated</p>
+						<code>$GOPATH</code>
 					</section>
 				</section>
 				<section>
